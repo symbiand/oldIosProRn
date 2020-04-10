@@ -16,7 +16,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
     // Do any additional setup after loading the view.
+    
+    UIButton *tmpBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [self.view addSubview:tmpBtn];
+    [tmpBtn setFrame:CGRectMake(100, 100, 40, 40)];
+    [tmpBtn setTitle:@"clickMe" forState:UIControlStateNormal];
+    [tmpBtn setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
 }
 
 

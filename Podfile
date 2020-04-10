@@ -33,4 +33,6 @@ target 'oldIosProRn' do
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
   pod 'React-fishhook', :path => '../node_modules/react-native/Libraries/fishhook'
 
+
+#//测试子目录
 end
